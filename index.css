@@ -1,0 +1,555 @@
+
+body{
+    background-color: #1f1f25;
+}
+.img1{
+    width: 100%;
+    height:70%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position:absolute;
+    top: 30%;
+    right: 35%;
+    font-family: cursive;
+    font-size: 70px;
+    font-weight: bold;
+   
+}
+.container .title{
+    color: #1f1f25;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20%;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.top-right {
+    position:absolute;
+    top: 25%;
+    right:8%;
+    
+}
+.img2{
+    float: right;
+    right: 10%;
+    height: 400px;
+    padding-top: 60px;
+    }
+
+.img3{
+    float: left;
+    right: 10%;
+    height:100;
+    width: 300;
+    }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: #1f1f25;
+    }
+
+nav ul li{
+list-style: none;
+display: inline-block;
+padding: 10px 20px;
+
+}
+nav ul li a{
+color: #973b74;
+position: relative;
+padding: 5px 0;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+
+}
+nav ul li a:hover{
+color: #c048a6;
+
+}
+nav ul li a:after{
+content: "";
+position: absolute;
+left: 0;
+width: 0;
+height: 3px;
+background: #fd4766;
+transition: .3s;
+bottom: 0;
+
+}
+nav ul li a:hover:after{
+width: 100%;
+}
+.btn{
+color: rgb(58, 15, 15);
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 2px;
+padding: 16px 40px;
+border-radius: 500px;
+display: inline-block;
+font-weight: 500;
+transition: all .4s ease-in-out;
+background-size: 152% 100%;
+background: #faa1d8;
+border: 2px solid #5c0f3f;
+text-decoration: none;
+}
+.btn:hover{
+background: transparent;
+border-color: #df687c;
+color: #fd4766;
+}
+.img4{
+
+height: 95%;
+width: 60%;
+padding-left: 150px;
+
+}
+
+
+
+
+.art1 {
+display: inline-block;
+width: 30%;
+height: 700px;
+background:black;
+padding: 60px 80px 0;
+font-size: 28px;
+color: whitesmoke;
+overflow: hidden;
+transition: max-height 1s;
+text-align: justify;
+margin-top: 5px;
+margin-left: 7%;
+}
+.name{
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10px;
+}
+.but{
+color: rgb(58, 15, 15);
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 2px;
+padding: 16px 40px;
+border-radius: 500px;
+display: inline-block;
+font-weight: 500;
+transition: all .4s ease-in-out;
+background-size: 152% 100%;
+background: #faa1d8;
+border: 2px solid #5c0f3f;
+text-decoration: none;
+}
+.but:hover{
+background: transparent;
+border-color: #df687c;
+color: #fd4766;
+}
+.glow {
+font-size: 80px;
+color: #fff;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+.itsme {
+color: #e60073;
+font-family: cursive;
+font-size: 48px;
+}
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+
+.fa:hover {
+opacity: 1.7;
+transform: scale(1.5); 
+
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: rgb(158, 23, 158);
+color: white;
+}
+
+
+
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+
+.Qulities{
+text-align: center;
+
+font-size: 52px;
+font-family: cursive;
+color: #e60073;
+animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes Qulities {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+
+* {
+box-sizing: border-box;
+}
+
+
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+height: 70%; 
+}
+
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+div.gallery {
+border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.contain {
+position: relative;
+width: 30%;
+display: inline-block;
+padding-left: 20px;
+}
+
+.image {
+display:block;
+width: 100%;
+height: 60%;
+}
+
+.overlay {
+position: absolute;
+bottom: 0;
+left: 100%;
+right: 0;
+background-color: #56747e;
+overflow: hidden;
+width: 0;
+height: 100%;
+transition: .5s ease;
+}
+
+.contain:hover .overlay {
+width: 100%;
+left: 0;
+}
+
+.text {
+white-space: nowrap; 
+color: rgb(116, 223, 46);
+font-size: 20px;
+position: absolute;
+overflow: hidden;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+* {box-sizing: border-box
+}
+
+p{
+color: #2196F3;
+}
+.p1{
+color:#9fd81b;
+font-size: 32px;
+}
+
+.cont {
+width: 70%;
+background-color: #ddd;
+
+}
+
+.skills {
+text-align: right;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 70%; background-color: #2196F3;}
+.js {width: 40%; background-color: #f44336;}
+.php {width: 30%; background-color: #808080;}
+
+.all{
+padding: 30px;
+}
+
+.square{
+color: #2aadc4;
+font-size: 28px;
+background-color: #2a068b;
+background-image: linear-gradient(pink,purple);
+}
+
+* {
+box-sizing: border-box;
+}
+
+img {
+vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.con{
+position: relative;
+height: 60%;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: 25%;
+width: 10px;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+padding-right: 30%;
+
+}
+.prev {
+left: 0;
+border-radius: 3px 0 0 3px;
+padding-left: 30%;
+
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 550px;
+position: absolute;
+top: 0;
+}
+
+/* Container for image text */
+.caption-con {
+text-align: center;
+background-color: #222;
+padding: 2px 16px;
+color: white;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Six columns side by side */
+.col {
+float: left;
+width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+opacity: 0.6;
+
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+.contact{
+color: #fa15a2;
+font-size: 40px;
+text-shadow: #2a068b;
+text-align: center;
+
+}
+.service{
+font-size: 32px;
+text-align: center;
+color: white;
+}
+
+/*firebase*/
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid rgb(234, 243, 234);
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+color: rgb(216, 223, 209);
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.co {
+border-radius: 7px;
+background-color: #4c4545;
+padding: 20px;
+}
+footer{
+color: #000;
+background-color: #571b6e;
+text-align: center;
+padding-bottom: 12px;
+padding-top: 12px;
+letter-spacing: 2px;
+}
+
+table{
+width:80%;
+height: 50%;
+text-align: center;
+border-color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 28px;
+border-radius: 10px;
+
+}
+th{
+font-weight: bold;
+color: #04AA6D;
+font-size: 30px;
+text-decoration: overline underline;
+}
+td{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #9ac720;
+}
+.level{
+font-weight: bold;
+color: #1c99fe;
+}
+.talents{
+padding-left: 250px;
+}

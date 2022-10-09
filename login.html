@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Educational webpage</title>
+</head>
+
+
+<style>
+    
+.img1{
+    margin-top: 50px;
+    float:right;
+   
+}
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topnav input[type=yes] {
+  float: left;
+  left:20;
+  padding: 6px;
+  margin-top: 20px;
+  margin-right: 16px;
+  margin-left: 80px;
+  border: none;
+  font-size: 17px;
+  background-color: rgb(209, 204, 204);
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=yes] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    
+  }
+  
+  .topnav input[type=yes] {
+    border: 1px solid rgb(12, 12, 158);  
+  }
+  .topnav input[type=yes] :hover{
+    color: bisque;
+    
+  }
+}
+
+
+.a1:link, .a1:visited {
+  background-color: white;
+  color: rgb(31, 31, 126);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+ 
+  
+}
+.a1:hover{
+    color: rgb(44, 112, 201);
+}
+
+.a1:hover, .a1:active {
+  background-color:white;
+}
+
+.a2:link, .a2:visited{
+  float:right;
+  background-color: white;
+  color: rgb(44, 112, 201) ;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 15px;
+  
+}
+
+
+.a2:hover, .a2:active {
+  background-color:white;
+}
+
+.art1{
+    display: inline-block;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(39, 88, 194);
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.art2{
+    display: inline-block;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(39, 88, 194);
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+    bottom:200px;
+}
+
+.art3{
+    display: inline-block;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(39, 88, 194);
+    margin-left: 20px;
+    font-size: 18px;
+    bottom:200px;
+}
+
+.art4{
+    display: inline-block;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(39, 88, 194);
+    margin-left: 20px;
+    font-size: 18px;
+    bottom:400px;
+}
+.art5{
+    display: inline-block;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(39, 88, 194);
+    margin-left: 40px;
+    font-size: 18px;
+    bottom:200px;
+}
+
+
+details>summary{
+  color: rgb(12, 12, 143);
+  padding: 4px;
+  width:200px;
+  background-color: #eeeeee;
+  border:none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+  margin-left: 80px;
+  float: left;
+  left:20;
+  padding: 6px;
+  margin-top: 20px;
+  margin-right: 16px;
+  margin-left: 70px;
+  border: none;
+}
+
+
+.fart1{
+    display: inline-block;
+    
+    font-family: 'Times New Roman', Times, serif;
+    color:gray;
+    margin-left: 20px;
+    font-size: 28px;
+    
+}
+.pfart2{
+    font-size: 16px;
+
+}
+.faart1{
+    color: whitesmoke;
+}
+
+.fart2{
+    display: inline-block;
+
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    margin-left: 40px;
+    font-size: 24px;
+    
+}
+.pfart3{
+    font-size: 16px;
+}
+
+.fart3{
+    display: inline-block;
+
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    margin-left: 60px;
+    font-size: 24px;
+    
+}
+.fart4{
+    display: inline-block;
+
+    font-family: 'Times New Roman', Times, serif;
+    color:whitesmoke;
+    margin-left: 80px;
+    font-size: 24px;
+    
+}
+.pfart4{
+    color: #eeeeee;
+}
+footer{
+    background-color:rgb(13, 13, 194);
+}
+    body {
+        background-color: rgb(101, 195, 233);
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Create two unequal columns that floats next to each other */
+    .column {
+        float: left;
+        padding: 100px;
+        height: 600px;
+
+        /* Should be removed. Only for demonstration */
+    }
+
+    .left {
+        width: 50%;
+
+    }
+
+    .right {
+        width: 50%;
+        padding: 50px;
+
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+
+    }
+
+    p {
+        font-size: 20px;
+        color: white;
+    }
+
+    h1,
+    .a1 {
+        color: white;
+    }
+    p a{
+        color: white;
+    }
+    text{
+        width: 100%;
+        height: 40px;
+        border: 1px solid rgb(218, 215, 215);
+        border-radius: 5px;
+    }
+    .nonedec{
+        text-decoration: none;
+    }
+    .nonedec:hover{
+        text-decoration: underline;
+    }
+    .star{
+        color: red;
+        display: inline;
+    }
+    .bttn{
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 100%;
+        height: 30px;  
+        text-align: center; 
+        padding-top: 5px;
+        display: inline-block;
+    }
+    .bttn a{
+        text-decoration: none;
+        font-size: large;
+        color: black;               
+    }
+    .bttn:hover{
+        background-color: rgb(225, 225, 250);
+    }
+    header{
+        background-color: white;
+    }
+</style>
+
+<body>
+    <header>
+    
+    <details>
+              
+        <summary>Course</summary>
+        <article class="art1">
+          <p class="part1"><a class="aart" href="#"><b>MATH: PRE-K - 8TH GRADE</b><br><br>
+              Up to 2nd grade (Khan<br>
+               Kids)<br><br>
+              2nd grade<br><br>
+              3rd grade<br><br>
+              4th grade<br><br>
+              5th grade<br><br>
+              6th grade<br><br>
+              7th grade<br><br>
+              8th grade<br><br>
+              See all Math<br><br>
+              <b>MATH: GET READY COURSES</b><br><br>
+              Get ready for 3rd grade<br><br>
+              Get ready for 4th grade<br><br>
+              Get ready for 5th grade<br><br>
+              Get ready for 6th grade<br><br>
+              Get ready for 7th grade<br><br>
+              Get ready for 8th grade<br><br>
+              Get ready for Algebra 1<br><br>
+              Get ready for<br> 
+              Geometry<br><br>
+              Get ready for Algebra 2<br><br>
+              Get ready for <br>
+              Precalculus<br><br>
+              Get ready for AP® <br>
+              Calculus<br><br>
+              Get ready for AP® <br>
+              Statistics</a>
+
+              </p></article>
+              
+              
+              
+<article class="art2">
+
+
+<p class="part1"><a class="aart" href="#"><b>MATH: HIGH SCHOOL & COLLEGE</b><br><br>
+Algebra 1<br><br>
+Geometry<br><br>
+Algebra 2<br><br>
+Trigonometry<br><br>
+
+Precalculus<br><br>
+High school statistics<br><br>
+Statistics & probability<br><br>
+AP®︎/College Calculus AB<br><br>
+AP®︎/College Calculus BC<br><br>
+AP®︎/College Statistics<br><br>
+Multivariable calculus<br><br>
+Differential equations<br><br>
+Linear algebra<br><br>
+See all Math<br><br>
+<b>TEST PREP</b><br><br>
+SAT<br><br>
+LSAT<br><br>
+Praxis Core<br><br>
+MCAT<br><br><br><br><br><br><br><br><br><br><br><br></a>
+</p></article>
+
+<article class="art3">
+  <p class="part1"><a class="aart" href="#"><b>SCIENCE</b><br><br>
+Middle school 
+biology <br>beta -
+NGSS<br><br>
+
+Middle school
+Earth <br>and space
+science beta -<br>
+NGSS<br><br>
+
+Middle school 
+physics -<br> NGSS<br><br>
+
+High school biology<br><br>
+High school biology -
+NGSS<br><br>
+High school physics<br><br>
+High school physics -
+NGSS<br><br>
+AP®︎/College Biology<br><br>
+AP®︎/College<br> Chemistry<br><br>
+AP®︎/College
+Environmental <br>Science<br><br>
+AP®︎/College Physics 1<br><br>
+See all Science<br><br>
+<b>COMPUTING</b><br><br>
+Computer<br>
+programming<br><br>
+AP®︎/College Computer <br>Science
+Principles<br><br>
+See all Computing<br><br><br><br><br><br><br><br><br><br></a>
+</p></article>
+
+
+<article class="art4">
+  <p class="part1"><a class="aart" href="#">
+<b>ARTS & HUMANITIES</b><br><br>
+US history<br><br>
+AP®︎/College US History<br><br>
+US government and civics<br><br>
+AP®︎/College US Government<br> & Politics<br><br>
+World History Project -<br>
+Origins to the Present<br><br>
+World History Project - 
+1750 <br>to the Present<br><br>
+Art history<br><br>
+AP®︎/College Art 
+History<br><br>
+See all Arts & Humanities<br><br>
+<b>ECONOMICS</b><br><br>
+Macroeconomics<br><br>
+AP®︎/College<br> Macroeconomics<br><br>
+Microeconomics<br><br>
+AP®︎/College<br> Microeconomics<br><br>
+See all Economics<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></a>
+
+</p></article>
+
+<article class="art5">
+  <p class="part1"><a class="aart" href="#">
+<b>READING & LANGUAGE ARTS</b><br><br>
+Up to 2nd grade (Khan Kids)<br>
+2nd grade<br><br>
+3rd grade<br><br>
+4th grade<br><br>
+5th grade<br><br>
+6th grade<br><br>
+7th grade<br><br>
+8th grade<br><br>
+9th grade<br><br>
+Grammar<br><br>
+See all Reading & Language <br>Arts<br><br>
+<b>LIFE SKILLS</b><br><br>
+Social & emotional learning <br>(Khan Kids)<br><br>
+Careers<br><br>
+Personal finance<br><br>
+Growth mindset<br><br>
+Internet safety<br><br>
+See all Life Skills<br><br><br><br><br><br><br><br><br><br><br><br><br></a>
+</p></article>
+
+
+</details>
+
+
+
+      <div class="topnav">
+          <input type="yes" placeholder="Search..">
+        </div>
+        
+     
+  <img class="1mg1" src="https://play-lh.googleusercontent.com/TpK0AcjPn5-XDKgSZ5jAob1H7MsQuJILOMR4M4QYkTt5CBPgTJVr7mysrKM6Ia8SrX8=w600-h300-pc0xffffff-pd" width="90" height="50"><a class="a1" href="KHAN ACADEMY.html">Khan Academy</a>
+  <a class="a2" href="teacher.html">Sign In</a>
+  <a class="a2" href="login.html">Log In</a>
+  <a class="a2" href="givetoday.html">Donate</a>
+  <hr>
+
+
+    </header>
+    <br><br><br><br><br><br>
+    <div class="row">
+        <div class="column left" style="background-color: rgb(24, 24, 131);">
+            <h1>Login</h1>
+            <p>Good to see you again!</p>
+            <p>By logging into Khan Academy, you agree to our <a id="a1" href="terms">Terms of use </a>and <a
+                    href="privacy policy">Privacy Policy.</a></p>
+
+        </div>
+        <div class="column right" style="background-color: aliceblue;">
+
+
+            <div  class="bttn">
+                <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.khanacademy.org%3Fid%3Dauth579250&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=124072386181-eogtmmv0qose5ovudl946d83miv1ia89.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fwww.khanacademy.org&prompt=select_account&fetch_basic_profile=true&gsiwebsdk=2&flowName=GeneralOAuthFlow">Continue with Google</a>
+            </div>
+            <br><br>
+            <div class="bttn">
+                <a href="https://clever.com/oauth/district-picker?response_type=code&redirect_uri=https%3A%2F%2Fwww.khanacademy.org%2Flogin%2Fclever%2Fredirect&client_id=e50a9862bc4fdeafda80">Continue with Clever</a>
+            </div>
+            <br><br>
+            <div class="bttn">
+                <a href="https://www.facebook.com/">Continue with Facebook</a>
+            </div>
+            <br><br>
+            <div class="bttn">
+                <a href="https://appleid.apple.com/auth/authorize?client_id=org.khanacademy.www&redirect_uri=https%3A%2F%2Fwww.khanacademy.org%2Flogin%2Fapple%2Fcomplete&response_type=code%20id_token&state=%7B%22token%22%3A%2252d1927e5a721989caca251e5e49d04926b70394%22%2C%22action%22%3A%22LOGIN%22%2C%22continue%22%3A%22%2Fredirect%3Fcontinue%3D%252F%22%2C%22role%22%3A%22teacher%22%2C%22signup_codes%22%3A%22%22%7D&scope=email%20name&response_mode=web_message&frame_id=02748b32-7c52-4b3e-94ef-540cf0a33dbf&m=11&v=1.4.2">Continue with Apple</a>
+            </div>
+            <br><br>
+
+            
+        <form>
+            <p class="star">*</p>indicates a required field.
+            <br><br>
+            Email or Username <p class="star">*</p>
+            <br><br>
+            <input type="text" name="name"><br><br>
+            Password <p class="star">*</p>
+            <br><br>
+
+            <input type="text" name="password"><br><br>
+        
+
+            <a href="https://www.khanacademy.org/forgotpw" class="nonedec">Forgot password?</a>
+            <br><br>
+         <div>
+            <button type="submit">Log in</button>
+         </div>
+         <br>
+         <a href="https://www.khanacademy.org/signup?continue=%2Fforgotpw" class="nonedec"><center>Create an account</center></a>
+        </form>
+
+
+
+        </div>
+        
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <article class="fart1">
+          <p class="pfart1">
+              Our mission is to provide a free, world-class<br>
+               education to anyone, anywhere.<br><br>
+  
+              Khan Academy is a 501(c)(3) nonprofit <br>
+              organization. Donate or volunteer today!</p>
+              
+              <br><br><br><br><br><br><br><br><br>
+              <p class="pfart2"> Language
+                  <a class="faart1" href="#">English<br></a>
+  Country
+  <a class="faart1" href="#">U.S.</a>
+  <a class="faart1" href="#">India</a>
+  <a class="faart1" href="#">Mexico</a>
+  <a class="faart1" href="#">Brazil</a>
+  </p>
+  </article>
+  
+  <article class="fart2">
+      <p class="pfart3">
+      <a class="faart1" href="#">    About<br><br>
+          News<br><br>
+          Impact<br><br>
+          Our team<br><br>
+         Our interns<br><br>
+         Our content specialists<br><br>
+          Our leadership<br><br>
+         Our supporters<br><br>
+         Our contributors<br><br>
+          Our finances<br><br>
+          Careers<br><br>
+           Internships</a><br><br><br><br><br><br><br>
+      </p></article>
+  
+      <article class="fart3">
+          <p class="pfart3">
+              Contact<br><br>
+              <a class="faart1" href="#"> Help center<br><br>
+                  Support community<br><br>
+                  Share your story<br><br>
+                  Press</a><br><br><br><br>
+  Download our apps<br><br>
+  <a class="faart1" href="#">iOS app<br><br>
+       Android app</a><br><br><br><br><br><br><br><br><br><br><br><br><br>
+       </p></article>
+  
+  
+       <article class="fart4">
+          <p class="pfart3">
+              Courses<br><br>
+              <a class="faart1" href="#"> Math: Pre-K - 8th grade
+  Math: Get ready courses<br><br>
+  Math: high school & college<br><br>
+  Test prep<br><br>
+  Science<br><br>
+  Computing<br><br>
+  Arts & humanities<br><br>
+  Economics<br><br>
+  Reading & language arts<br><br>
+  Life skills</a><br><br><br><br><br><br><br><br><br><br><br>
+  </p></article>
+  
+  <hr>
+  <p class="pfart4">
+  © 2022 Khan Academy
+  <a class="faart1" href="#">Terms of use</a>
+  <a class="faart1" href="#">Privacy Policy</a>
+  <a class="faart1" href="#">Cookie Notice</a></p>
+  
+  <br>
+  
+  </footer>
+</body>
+
+</html>
